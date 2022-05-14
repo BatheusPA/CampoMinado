@@ -5,9 +5,12 @@
 - Criar um jogo chamado campo minado com os requisitos exigidos pelo professor em sala de aula.
 
 ## 🔧 Funcionalidades do projeto
- - contém as funções basicas de um jogo de campo minado.
- - contém 3 dificuldades diferentes para o usuario escolher.
- - possui um cronometro para contar o tempo que o usuario leva para concluir o jogo.
+ - Possui as funções basicas de um jogo de campo minado.
+ - Possui 3 dificuldades diferentes para o jogador escolher:
+   - A dificuldade iniciante apresenta um tabuleiro 8x10 que contém 10 minas.
+   - A dificuldade Intermediário apresenta tabuleiro 14x18 que contém 40 minas.
+   - A dificuldade Avançada apresenta tabuleiro 20x24 que contém 99 minas. 
+ - Possui um cronometro para contar o tempo que o usuario leva para concluir o jogo.
 
 ## 💻 Tecnologias utilizadas
  - Frontend: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a> 
