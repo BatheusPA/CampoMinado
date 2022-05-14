@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Campo Minado</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Campo Minado</h1>
+    <div class="regras">
+      <p>selecione a dificuldade:</p>
+      <select id="dificuldade">
+        <option value="0" selected></option>
+        <option value="1">Iniciante</option>
+        <option value="2">Intermediário</option>
+        <option value="3">Avançado</option>
+      </select>
+      <p>
+        A dificuldade iniciante apresenta um tabuleiro 8x10 que contém 10
+        minas.<br />
+        A dificuldade Intermediário apresenta tabuleiro 14x18 que contém 40
+        minas.<br />
+        A dificuldade Avançada apresenta tabuleiro 20x24 que contém 99 minas.
+      </p>
+    </div>
+    <h1 id="counter">00:00:00</h1>
+    <div>
+      <table id="tabela"></table>
+    </div>
+  </body>
+</html>
