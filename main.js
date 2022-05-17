@@ -210,7 +210,7 @@ let hh = 0
 let mm = 0
 let ss = 0
 
-//1000 ms = 1min
+//1000 ms = 1seg
 let tempo = 1000
 let cron
 
